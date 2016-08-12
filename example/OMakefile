@@ -1,0 +1,5 @@
+# Copyright (C) Denis Berthod 2016
+# Release under MIT license
+
+#Should define the target "test" if the module Test is correctly loaded
+open Test

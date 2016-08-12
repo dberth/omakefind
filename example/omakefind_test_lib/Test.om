@@ -1,0 +1,6 @@
+# Copyright (C) Denis Berthod 2016
+# Released under MIT License
+
+.PHONY: test
+test:
+	echo SUCCESS

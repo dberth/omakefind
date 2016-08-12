@@ -1,0 +1,7 @@
+# Copyright (C) Denis Berthod 2016
+# Code released under MIT License
+
+UsePkg(pkg)=
+	USE_OCAMLFIND=true
+	OMAKEPATH += $(shell $(OCAMLFIND) query $(pkg))
+	export

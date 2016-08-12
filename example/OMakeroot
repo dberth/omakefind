@@ -1,0 +1,16 @@
+open build/C
+open build/OCaml
+open build/LaTeX
+
+#include the OMakefind script that allow you to use the UsePkg function
+
+include ../OMakefind
+
+#UsePkg(<findlib package>) loads the path to the package content in the
+#search path of OMake modules.
+
+UsePkg(omakefind_test_lib)
+
+DefineCommandVars()
+
+.SUBDIRS: .
